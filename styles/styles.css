@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Roboto', sans-serif;;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+.phoneLayout {
+    background: #2b2b2b;
+    margin: 50px 0px;
+    border: solid black 2px;
+    border-radius: 15%;
+    width: 400px;
+    height: 770px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appLayout {
+    margin-top: 2rem;
+    background: #f5f5f5;
+    width: 88%;
+    height: 88%;
+}
+
+.pokelogoContainer {
+    width: 100%;
+    background: #2b2b2b;
+    padding-bottom: .8rem;
+}
+
+.pokelogoContainer img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.padding {
+    padding: 0.8rem;
+}
+
+#btnPlay {
+    background: #FFCC00;
+    border-style: none;
+    color: #2b2b2b;
+}
+
+.spinnerContainer {
+    margin-top: 200px;
+    justify-content: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselContainer {
+    display: none;
+    width: 100%;
+}
+
+.carousel-caption {
+    position: static;
+}
+
+.carousel-item img {
+    width: 200px;
+}
+
+.pokemonImage {
+    width: 150px;
+}
+
+.playerSelection {
+    width: 100%;
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+.playerSelection p {
+    text-align: center;
+}
+
+.btnCloseContainer {
+    display: flex;
+    justify-content: right;
+    margin-right: 1rem;
+    margin-top: 0.3rem;
+}
+
+.btnClose {
+    width: 40px;
+    height: 40px;
+    background: #ED1729;
+    border-style: none;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+.playerChoiceContainer {
+    display: none;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnShowResults {
+    width: 150px;
+    height: 50px;
+    color: #f5f5f5;
+    background: #ED1729;
+    border-radius: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btnCloseStyle {
+    width: 150px;
+    height: 50px;
+    color: #f5f5f5;
+    background: #ED1729;
+    border-radius: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnPlayAgain {
+    width: 150px;
+    height: 50px;
+    color: #f5f5f5;
+    background: #484141;
+    border-radius: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    cursor: pointer;  
+}
+
+.results {
+    display: none;
+}
+
+.btnResultsCloseContainer {
+    display: flex;
+    justify-content: right;
+    margin-right: 1rem;
+    margin-top: .3rem;
+}
+
+.imgResultsContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.resultsContainer h3 {
+    text-align: center;
+}
+
+.resultsContainer p {
+    text-align: center;
+}
+
+.scoreResultsContainer p{
+    font-size: 20px;
+}
+
+.player2ResultsContainer {
+    margin-top: 3rem;
+}
+
+.btnResultsSaveContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+} 
+
+.btnResultsClose2 {
+    width: 100px;
+    height: 40px;
+    color: #f5f5f5;
+    background: #ED1729;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+}
+
+.btnResultsSave {
+    width: 100px;
+    height: 40px;
+    color: #f5f5f5;
+    background: #484141;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+}
+
+.savedResults {
+    margin-top: 2rem;
+}
+
+.individualResult {
+    display: flex;
+    justify-content: space-around;
+    background: #484141;
+    color: #f5f5f5;
+    align-items: center;
+    padding: 5px 0;
+    margin-top: 5px;
+}
+
+.individualResult p {
+    margin: 0;
+}
+
+.btnShowIndividualResult {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #FFCC00;
+    color: #f5f5f5;
+    border-style: none;
+}
